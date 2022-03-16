@@ -4,6 +4,8 @@
 <a href="https://packagist.org/packages/davidvandertuijn/geodistance"><img src="https://poser.pugx.org/davidvandertuijn/geodistance/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/davidvandertuijn/geodistance"><img src="https://poser.pugx.org/davidvandertuijn/geodistance/license.svg" alt="License"></a>
 
+![Geo Distance](https://cdn.davidvandertuijn.nl/github/geodistance.png)
+
 ## Install
 
 ```
