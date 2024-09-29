@@ -6,6 +6,10 @@
 
 ![Geo Distance](https://cdn.davidvandertuijn.nl/github/geodistance.png)
 
+The Geo Distance calculator is a powerful tool designed to determine the distance between two geographic locations on the Earth’s surface. Whether you are planning a trip, conducting research, or managing logistics, understanding the distance between points is crucial for effective decision-making.
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/davidvandertuijn)
+
 ## Install
 
 ```
