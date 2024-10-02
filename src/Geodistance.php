@@ -9,14 +9,6 @@ class Geodistance
 {
     /**
      * Distance.
-     *
-     * @param float $lat1
-     * @param float $lon1
-     * @param float $lat2
-     * @param float $lon2
-     * @param string $unit (M = Miles, K = Kilometers, N = Nautical Miles)
-     *
-     * @return float
      */
     public static function distance(float $lat1, float $lon1, float $lat2, float $lon2, string $unit): float
     {
@@ -27,13 +19,11 @@ class Geodistance
         $miles = $dist * 60 * 1.1515;
         $unit = strtoupper($unit);
 
-        switch ($unit) {
-            case 'M':
-                return $miles;
-            case 'K':
-                return $miles * 1.609344;
-            case 'N':
-                return $miles * 0.8684;
-        }
+        return match ($unit) {
+            'M' => $miles,
+            'K' => $miles * 1.609344,
+            'N' => $miles * 0.8684,
+            default => 0,
+        };
     }
 }
