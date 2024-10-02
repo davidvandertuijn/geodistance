@@ -12,7 +12,7 @@ The Geo Distance calculator is a powerful tool designed to determine the distanc
 
 ## Install
 
-```
+```shell
 composer require davidvandertuijn/geodistance
 ```
 ## Usage
